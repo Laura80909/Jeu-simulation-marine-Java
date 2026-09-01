@@ -21,6 +21,7 @@ Le requin pilleur tue ou vide le stock actuel du pirate.
 -Requin Gentil  :
   * Offre un poisson magique au pirate dans 60 % des cas lors de son tour.
   * Sinon, il mange la ressource présente sur sa case.
+
 -Requin Pilleur :
   * 10 % de chance d'attaquer mortellement le pirate (victoire des requins.
   * 10 % de chance de piller 3 algues et 3 poissons au pirate.
