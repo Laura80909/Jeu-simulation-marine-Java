@@ -38,6 +38,6 @@ Le requin pilleur tue ou vide le stock actuel du pirate.
 **Classes et méthodes abstraites** : 'AgentMarin', 'AnimalMarin'.
 **Interface** : 'InteractionMarine'
 **ArrayList** : 'Simulation' :  Gestion dynamique de la liste des agents.
-**Classe statique** `QuantiteRessource` : Suivi global des compteurs d'algues et de poissons en mer.
+**Classe statique** "QuantiteRessource" : Suivi global des compteurs d'algues et de poissons en mer.
 **Exception personnalisée** : 'ActionMerException' : Déclenchée si un animal tente de manger sur une case vide.
 **Design Pattern Singleton** : 'EtatDesClasses' : Historique des logs et des statistiques de mortalité.
