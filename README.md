@@ -11,9 +11,11 @@ Le requin gentil offre un poisson au pirate dans 60% des cas quand c'est son tou
 Le requin pilleur tue ou vide le stock actuel du pirate.
 
 -Condition de victoire : Le pirate gagne la partie dès qu'il accumule 3 poissons magiques.
+
 -Condition de défaite : Le pirate meurt s'il subit une attaque fatale d'un requin pilleur ou si tout son stock est pillé.
 
 **Les Agents Marins** :
+
 -Pirate : 
   * Se déplace sur la grille et collecte les ressources présentes sur sa case.
   * Peut offrir des algues à un requin gentil pour gagner de l'énergie.
@@ -28,7 +30,9 @@ Le requin pilleur tue ou vide le stock actuel du pirate.
   * 80 % de chance de préférer manger des algues/poissons sur le terrain plutôt que d'attaquer.
 
 **Les Ressources** :
+
 * Algue : Ressource végétale qui croît automatiquement à chaque manche.
+  
 * PoissonM (Poisson Magique) : Ressource rare nécessaire à la victoire du pirate.
 
 ---
@@ -36,9 +40,15 @@ Le requin pilleur tue ou vide le stock actuel du pirate.
 **Concepts POO** :
 
 **Hiérarchie d'héritage (3 niveaux)** : `AgentMarin`, `AnimalMarin`, `Requingentil`, `RequinPilleur` : Spécialisation progressive des comportements marins.
+
 **Classes et méthodes abstraites** : `AgentMarin`, `AnimalMarin`.
+
 **Interface** : `InteractionMarine`.
+
 **ArrayList** : `Simulation` :  Gestion dynamique de la liste des agents.
+
 **Classe statique** : `QuantiteRessource` : Suivi global des compteurs d'algues et de poissons en mer.
+
 **Exception personnalisée** : `ActionMerException` : Déclenchée si un animal tente de manger sur une case vide.
+
 **Design Pattern Singleton** : `EtatDesClasses` : Historique des logs et des statistiques de mortalité.
